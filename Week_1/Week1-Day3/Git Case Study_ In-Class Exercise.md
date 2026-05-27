@@ -2,7 +2,7 @@
 
 ## Objective
 
-As a team, you are tasked with recreating the case study that we’ve seen on slides 17-37 in [Intro to Git](https://www.canva.com/design/DAGY1bR5kcc/bctHV136HzCJ32uuWd1H8Q/edit?utm_content=DAGY1bR5kcc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). In teams of 3, you will assume the roles of Eric, Lucy, and Adam. Each team member will recreate the steps that their corresponding roles completed to exercise the following skills:
+As a team, you are tasked with recreating the case study. In teams of 3, you will assume the roles of Eric, Lucy, and Adam. Each team member will recreate the steps that their corresponding roles completed to exercise the following skills:
 
 - Using the terminal to run git commands
 
@@ -30,8 +30,7 @@ All instructions below are to be followed sequentially. This exercise may take u
 
 **1\. All team members**: If you have not already done so, create your GitHub profile and ensure that you are logged in.
 
-1. Ensure you have completed your Git Configuration. You can test this from your PC’s terminal by running the ‘**_git log \-list_**’ command. It will notify you which authorized account is tied to your terminal.
-   2. If you are receiving an error requesting the \`**_git config_**\` command, you may need to complete your Git Configuration. Notify your instructor immediately and see the Git Configuration section before moving onto **step 2.0**.
+1. Ensure you have completed your Git Configuration. You can test this from your PC’s terminal by running the ‘**_git log \-list_**’ command. It will notify you which authorized account is tied to your terminal. 2. If you are receiving an error requesting the \`**_git config_**\` command, you may need to complete your Git Configuration. Notify your instructor immediately and see the Git Configuration section before moving onto **step 2.0**.
 
 **2\. Only one team member**: From your Home page, press the “**\+**” at the top right of the page and click ‘**New Repository**’.
 
@@ -72,7 +71,7 @@ _Otherwise_, upon refreshing your page, you should see a new layout with your RE
 
 ---
 
-Git Configuration
+## Git Configuration
 
 **This section only applies if you have not completed your Git configuration in your terminal.** This is apparent if running the commands under _“…or create a new repository on the command line”_ results in an error requesting either a \`**_user.email_**\` or \`**_user.name_**\`.
 
@@ -86,7 +85,7 @@ If you (fellow) were not able to complete the case study during class, it is rec
 
 ---
 
-Add Rules to Your Main Branch
+## Add Rules to Your Main Branch
 
 To prevent any major obstacles in the development cycle, we will add rules to our Main branch.
 
@@ -107,7 +106,7 @@ below. Set the required amount to **1**
 
 ---
 
-Cloning Your Repository
+## Cloning Your Repository
 
 The team member who created the repository should see a ‘**Code**’ button above their commit history. From here your team will be able to clone the repository your team will be working on.
 
@@ -205,9 +204,9 @@ git push --set-upstream origin feature-a
 
 If done correctly, you should see a prompt that will ask you to ‘Compare & pull request’ once you’ve refreshed your webpage.
 
-**8\.** Check that your remote repository reflects your commits. ([See slide 32](https://www.canva.com/design/DAGY1bR5kcc/bctHV136HzCJ32uuWd1H8Q/edit?utm_content=DAGY1bR5kcc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+**8\.** Check that your remote repository reflects your commits.
 
-**9\.** Compare and approve the pull request ([See slide 33](https://www.canva.com/design/DAGY1bR5kcc/bctHV136HzCJ32uuWd1H8Q/edit?utm_content=DAGY1bR5kcc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+**9\.** Compare and approve the pull request
 
 - Make sure on the ‘**Comparing changes**’ page, you switch the base branch from ‘**main**’ to ‘**develop**’. This will merge the changes from your feature branch onto the develop branch. Remember, this is how we can test, and quality assure our features before they are pushed into production and become client-facing
 
@@ -215,7 +214,7 @@ If at any point you are encountering unique errors, work together as a team to r
 
 ---
 
-Feature-B: Team Member “Lucy”
+# Feature-B: Team Member “Lucy”
 
 Hi Lucy, you’ll be responsible for Feature-B, verifying users’ ages.
 
@@ -308,7 +307,7 @@ If at any point you are encountering unique errors, work together as a team to r
 
 ---
 
-Feature-C: Team Member “Adam”
+# Feature-C: Team Member “Adam”
 
 Hi Adam, your objective is to create your own branch, merge the changes onto the Develop branch, then merge the Develop branch onto the Main branch. Be mindful of the changes that both Eric and Lucy have made already.
 
