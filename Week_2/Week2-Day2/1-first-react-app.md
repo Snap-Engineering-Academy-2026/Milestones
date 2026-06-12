@@ -25,7 +25,13 @@ Follow [the instructions in the documentation](https://vite.dev/guide/) until yo
 </details>
 </td></tr></table>
 
-  After running `npm create ...`, you'll have to give your project a name and choose some options. Choose these options: `React`, then `JavaScript` (not JavaScript + SWC).
+  After running `npm create ...`, you'll have to give your project a name and choose some options. Choose these options: `React`, then `JavaScript` (not JavaScript + React Compiler).
+  > [!IMPORTANT]
+  > When asked to "Install with npm and start now?" Respond with No
+ 
+  Your terminal should look something like this after creating your project. Also, let terminal decide your package name after you enter your project name.
+  
+  <img width="679" height="482" alt="vite_create" src="https://github.com/user-attachments/assets/0501b140-a5ca-4b45-867d-4e5e74dadb08" />
 
 <table><tr><td>
 <details>
@@ -53,7 +59,7 @@ Follow [the instructions in the documentation](https://vite.dev/guide/) until yo
 </details>
 </td></tr></table>
 
-<img width="1126" alt="image" src="https://github.com/user-attachments/assets/5bf5f745-beca-405f-9ea2-d21ce741edb2" />
+<img width="1134" height="909" alt="vite_start_page" src="https://github.com/user-attachments/assets/7226519b-8a13-46c8-9f9c-51ded3b2790d" />
   
 <br/>
 
@@ -70,6 +76,9 @@ View the code in VS Code
 3. Look around the code!
 4. Open `App.jsx` and discuss what you see with a partner.
 5. Make a minor change to the code in `App.jsx`. Did the website change? If not, can you figure out why?
+> [!IMPORTANT]
+> Go to the `index.css` file and find `@media (prefers-color-scheme: dark)` and change to light mode `@media (prefers-color-scheme: light)`
+
 
 > [!IMPORTANT]
 > Do not move on until you can edit `App.jsx` and see that new change on the website. 
