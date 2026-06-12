@@ -59,6 +59,9 @@ Start by going to Github and creating a new repository (make the owner "Snap Eng
 
 <br/>
 
+## 0.5 Remove index.css from main.jsx
+We want to remove `index.css` from affecting our projects since it adds a ton of styling that may affect our components as we create them so let's get rid of it! Find the `import './index.css'` statement from `main.jsx` file and comment it.
+
 # Using Components
 
 ## 1. Card Component
