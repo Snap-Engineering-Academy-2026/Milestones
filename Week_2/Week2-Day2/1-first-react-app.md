@@ -112,7 +112,7 @@ View the code in VS Code
 </details>
 </td></tr></table>
 
-<img width="1237" alt="image" src="https://github.com/user-attachments/assets/e41710fb-2e73-4619-8f22-ab287dfeb921" />
+<img width="1133" height="904" alt="vite_after_change" src="https://github.com/user-attachments/assets/4c14a8f7-6ce9-4b36-bd7c-d1eaf50be1bb" />
 
 <br/>
 
@@ -214,7 +214,7 @@ html body {
 
 When you're done, your page should look like this:
 
-<img width="1552" alt="image" src="https://github.com/user-attachments/assets/877808ad-757b-4df0-a380-126c3fe48cd8" />
+<img width="1128" height="697" alt="css_mystery" src="https://github.com/user-attachments/assets/a4a7e9aa-3ab3-40df-b017-e97028ffdad7" />
 
 <br/>
 
@@ -248,7 +248,7 @@ Dive into the issue and try to figure it out. Why is the button blue instead of 
 </details>
 </td></tr></table>
 
-<img width="1237" alt="image" src="https://github.com/user-attachments/assets/a6d9eaf4-409d-4cff-8b1c-2cd5b8674c96" />
+<img width="1123" height="419" alt="css_mystery_red" src="https://github.com/user-attachments/assets/165ddf8c-598f-4045-8cfc-d9c90164ee1c" />
 
 <br/>
 
