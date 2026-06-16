@@ -78,3 +78,12 @@ nvm install --lts
 
 Verify that Node and nvm are working with the command `nvm ls`
 If you get an output with lots of colors and numbers, you’re good
+
+## Installing AI Tools
+1. Navigate to [Codex](https://chatgpt.com/codex/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_X_SEM_GBR_Codex_CDX_BAU_ACQ_PER_MIX_ALL_NAMER_US_EN_111325&c_id=23226110534&c_agid=194939268903&c_crid=807810285009&c_kwid=kwd-21294781&c_ims=&c_pms=9192409&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=23226110534&gbraid=0AAAAA-I0E5cbivlmuXT8QqgAeyG5L9THf&gclid=CjwKCAjw6MPRBhBTEiwAd-7Mr37krSeGn6Fj7dxfOUTcNrfirrPzkg7v49xQBDONPDRNglqkna9KWhoCc8EQAvD_BwE) and download the desktop app. Let's also add Codex to our vsCode. In vsCode navigate over to the extentsion tab and search `Codex – OpenAI’s coding agent`. Hit install!
+2. Read more about Codex [here](https://developers.openai.com/codex/ide)
+
+2. Installing Cursor 
+- Navigate to [cursor](https://cursor.com/) and download the desktop app.
+
+
