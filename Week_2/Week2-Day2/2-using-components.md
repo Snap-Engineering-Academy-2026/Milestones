@@ -2,7 +2,7 @@
 
 Before you proceed, you should back up your code to Github!
 
-Start by going to Github and creating a new repository (make the owner "Snap Engineering Academy 2025"). See if you can figure it out from there!
+Start by going to Github and creating a new repository (make the owner "Snap Engineering Academy 2026"). See if you can figure it out from there!
 
 <table><tr><td>
 <details>
@@ -12,7 +12,8 @@ Start by going to Github and creating a new repository (make the owner "Snap Eng
   
   Once you've created a new repository, you should see a page like this:
 
-  <img width="1290" alt="image" src="https://github.com/user-attachments/assets/08ae0600-821a-4cfc-9c42-356552af791f" />
+  <img width="1842" height="942" alt="first_react" src="https://github.com/user-attachments/assets/e7902373-1aaf-4133-b7ee-ae61e3aba540" />
+
 
   The commands under the "…or create a new repository on the command line" section are the best place to start! Here's what they do.
 
