@@ -33,8 +33,10 @@ This will take a while, especially “Xcode Command Line Tools”
 3. When it finishes, follow the instructions to “Add Homebrew to your PATH” – It’s running the two commands circled here:
    ![alt text](image-2.png)
 
-- Verify homebrew is working with the brew doctor command
-- You should get the message “Your system is ready to brew.”
+<!-- - Verify homebrew is working with the brew doctor command -->
+<!-- - You should get the message “Your system is ready to brew.” -->
+- You can verify if homebrew installed by typing "brew --version" (you should see something like Homebrew 6.0.2)
+
 
 4. Let's install yarn <br>
    Yarn is a “package manager” for Node projects, so it helps install and update programs (called “packages”) used in Node projects. In the same way homebrew helps install generic programming tools, yarn helps install Node-specific programming tools. We will use homebrew to install yarn, and later use yarn to install other things. This sounds absurd, but such is the life of dev setup / onboarding.
