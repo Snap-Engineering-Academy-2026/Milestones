@@ -1,6 +1,9 @@
 # Clicks and State
 
-In this milestone, we're going to learn about handling click events and variables.
+In this milestone, we're going to learn about handling click events and variables. But first, lets install a React Devtools Extenstion for Chrome. This is a Chrome only extension but will help out immensely with creating React programs. Find the link below!
+
+[Chrome React Devtool](https://react.dev/learn/state-a-components-memory#meet-your-first-ho0ok](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en))
+
 
 <br/>
 
