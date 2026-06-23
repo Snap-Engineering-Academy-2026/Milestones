@@ -29,9 +29,10 @@ Follow [the instructions in the documentation](https://vite.dev/guide/) until yo
   > [!IMPORTANT]
   > When asked to "Install with npm and start now?" Respond with No
  
-  Your terminal should look something like this after creating your project. Also, let terminal decide your package name after you enter your project name.
+  Your terminal should look something like this after creating your project.
   
-  <img width="679" height="482" alt="vite_create" src="https://github.com/user-attachments/assets/0501b140-a5ca-4b45-867d-4e5e74dadb08" />
+  <img width="2150" height="1397" alt="latest_vite_create" src="https://github.com/user-attachments/assets/83738945-58f5-4b48-8683-b89528919935" />
+
 
 <table><tr><td>
 <details>
