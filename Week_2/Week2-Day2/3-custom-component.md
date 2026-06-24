@@ -252,7 +252,7 @@ Inside my example `App.jsx`:
 
 <br/>
 
-9. (optional) I use an array for the `description` prop. If you have an array, try to figure out how to use `.map()` from Wednesday week 1 to generate the JSX to display the data in the array in your `DataCard.jsx`. _For this particular step, you can also try to get ChatGPT to write the code that uses `.map()`, then make sure it works and ask questions to understand how it works._
+9. (optional) I use an array for the `description` prop. If you have an array, try to figure out how to use `.map()` from Week 1 to generate the JSX to display the data in the array in your `DataCard.jsx`. _For this particular step, you can also try to get ChatGPT to write the code that uses `.map()`, then make sure it works and ask questions to understand how it works._
 
 
 # FIN!
