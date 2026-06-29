@@ -22,6 +22,6 @@ As a **[specific user type or persona]** I want to **[take a specific action]** 
 
 1. Cindy’s Project - [deployed](https://github.com/Snap-Engineering-Academy-2024/react-api-project-Cindy)
 
-2. Sedrick Project - [deployed](https://github.com/Snap-Engineering-Academy-2024/react-api-project-Cindy)
+2. Sedrick Project - [deployed](https://sedrickmoore.github.io/nba-matchups/)
 
 3. Ricardo's Project - [deployed](https://ricardo-escalante06.github.io/Guess-That-Photo/)
