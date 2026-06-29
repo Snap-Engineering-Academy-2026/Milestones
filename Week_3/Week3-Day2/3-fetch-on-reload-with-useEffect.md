@@ -1,6 +1,6 @@
 # Fetch data on first page load with useEffect!
 
-One thing you all may have run into is getting data from your API to show up when your first load the page!
+One thing you all may have run into is getting data from your API to show up when your **first** load the page!
 
 While there isn't an obvious or inituitive way to do this, React does make it relatively straightforward.
 
