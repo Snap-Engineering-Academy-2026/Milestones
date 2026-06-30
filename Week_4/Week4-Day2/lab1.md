@@ -79,8 +79,6 @@ This should open up something in your web browser! In the future, you only need 
 <img width="614" height="635" alt="Screenshot 2026-06-30 at 10 44 41 AM" src="https://github.com/user-attachments/assets/93d78702-72cd-4239-9d68-fd0165dcf825" />
 
 
-✅ Click "Run in web browser" and you should see a blank screen with the words "Open up App.js to start working on your app!"
-
 ✅ Try scanning the QR code with your Expo app (on Android) or Camera (on iPhone) to see the same screen on your phone.
 
 ✅ Here's a reference for all of the files in your new app. Go through each one and check them out so you know what is inside.
