@@ -14,7 +14,7 @@ npx create-expo-app@latest about-us-2026 --template blank
 
 ### To run
 
-1. In terminal, move to the project folder then run `npm install`
+1. Navigate into the project folder
 2. Then launch the project with `npx expo start`
 
 ## Then try to complete the following:
