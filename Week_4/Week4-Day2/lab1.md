@@ -93,10 +93,10 @@ This should open up something in your web browser! In the future, you only need 
 - .gitignore file = specifies files that Git should ignore
 - **App.js file = code to configure our app**
 - app.json file = metadata
-- babel.config.js file = configuration of how JS code is compiled
+- CLAUDE.md = provide context to Claude, if Claude interacts with the project
 - package.json file = manages dependencies
 - package-lock.json file = more info about dependencies (stored by npm)
-- npm = package manager
+
 
 > **FYI** from the Expo Docs: "When you run `npx expo start`, Expo CLI starts Metro Bundler, which is an HTTP server that compiles the JavaScript code of our app using Babel and serves it to the Expo app. It also pops up Expo Dev Tools, a graphical interface for Expo CLI."
 
