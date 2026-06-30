@@ -39,13 +39,14 @@ $ npm install -g expo-cli
 
 </details>
 
-### 3. (Optional) 📲 On your phone, download the Expo Go app:
+### 3. 📲 On your phone, download the Expo Go app:
 
 [🤖 Android Play Store - Android Lollipop (5) and greater.](https://play.google.com/store/apps/details?id=host.exp.exponent)
 
 [🍎 iOS App Store - iOS 11 and greater.](https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?path=apps%2fexponent)
 
 **Set up an account if needed!**
+**If you have any issues with using Expo Go, feel free to use the simulator on your computer**
 
 # Creating a React Native app
 
