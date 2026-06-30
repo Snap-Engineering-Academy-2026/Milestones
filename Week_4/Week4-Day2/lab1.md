@@ -56,6 +56,10 @@ This command will create a new project directory named react-native-lab1, using 
 npx create-expo-app@latest react-native-lab1 --template blank
 ```
 
+When prompted for the SDK version, choose the SDK 54 option.
+<img width="733" height="120" alt="Screenshot 2026-06-30 at 10 40 52 AM" src="https://github.com/user-attachments/assets/ed3895e3-d9a5-4493-9bd0-4074a3143e36" />
+
+
 ### 4. 👾 In your terminal, navigate to the project:
 
 Navigate into your project directory using your terminal. The path should be point to the project directory create above. Ex. react-native-lab1. On project creation the dependencies will be automatically installed, we are going to open up you project on VS Code.
