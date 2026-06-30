@@ -78,7 +78,8 @@ npx expo start
 
 This should open up something in your web browser! In the future, you only need to run this command to get your project running.
 
-![https://user-images.githubusercontent.com/26272095/124739226-8622f800-dece-11eb-9006-85771624dff2.png](https://user-images.githubusercontent.com/26272095/124739226-8622f800-dece-11eb-9006-85771624dff2.png)
+<img width="614" height="635" alt="Screenshot 2026-06-30 at 10 44 41 AM" src="https://github.com/user-attachments/assets/93d78702-72cd-4239-9d68-fd0165dcf825" />
+
 
 ✅ Click "Run in web browser" and you should see a blank screen with the words "Open up App.js to start working on your app!"
 
