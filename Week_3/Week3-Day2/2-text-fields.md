@@ -54,7 +54,7 @@ import TextField from "@mui/material/TextField";
 4. Now that we know the TextField looks right, let's add a state variable
 
 ```js
-const [name, setName] = React.useState("Cat in the Hat");
+const [name, setName] = useState("Cat in the Hat");
 ```
 
 Then change the `value` field in the `<TextField>` component to use our state variable.
@@ -84,12 +84,12 @@ Here's an example to search for books with titles that match the name in the inp
 ```js
 const requestOptions = {
   method: "GET",
-  redirect: "follow"
+  redirect: "follow",
 };
 
 fetch(
   "https://openlibrary.org/search.json?q=" + name + "&limit=10&fields=title",
-  requestOptions
+  requestOptions,
 );
 ```
 
@@ -101,6 +101,40 @@ Using JSX we can make this endpoint more readable:
 ```
 
 Sample Result - https://openlibrary.org/search.json?q=cat+in+the+hat&limit=10&fields=title
+
+At this point, the code is incomplete, we haven't finished chaining our promise! We need to handle our promise state - look back at the slide if you a little lost here. I'll drop these hints to help get you started. Fill out the items needed to make this code run!
+
+```js
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import { useState } from "react";
+
+function App() {
+  const [funFact, setfunFact] = useState("");
+
+  const searchDogFunFact = () => {
+    fetch(`API HERE`)
+      .then()
+      .then(PLEASE LOG YOUR DATA HERE)
+      // this error function is pretty standard so I will leave this here
+      .catch((error) => console.error(error));
+  };
+  // add a log to check your state
+  return (
+    <>
+      <TextField
+        label="Search"
+        value={""}
+        onChange={(event) => setfunFact(event.target.value)}
+      />
+      {/* Add a button to your page, here the button will trigger the fetch */}
+      <Button onClick={searchDogFunFact}>Search</Button>
+    </>
+  );
+}
+
+export default App;
+```
 
 ## Map through you API results
 
