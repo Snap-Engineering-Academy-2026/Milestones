@@ -9,7 +9,7 @@ Here are some ideas you can do:
 ## Create a React Native Project
 
 ```
-npx create-expo-app@latest about-us-2025 --template blank
+npx create-expo-app@latest about-us-2026 --template blank
 ```
 
 ### To run
