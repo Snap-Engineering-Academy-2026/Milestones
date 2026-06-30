@@ -32,7 +32,6 @@ $  expo --version
 <details>
 If you do not have expo-client install run the following command in your terminal :
 
-)
 
 ```bash
 $ npm install -g expo-cli
@@ -40,7 +39,7 @@ $ npm install -g expo-cli
 
 </details>
 
-### 3. 📲 On your phone, download the Expo Go app:
+### 3. (Optional) 📲 On your phone, download the Expo Go app:
 
 [🤖 Android Play Store - Android Lollipop (5) and greater.](https://play.google.com/store/apps/details?id=host.exp.exponent)
 
@@ -56,14 +55,12 @@ This command will create a new project directory named react-native-lab1, using 
 npx create-expo-app@latest react-native-lab1 --template blank
 ```
 
-### 4. 👾 In your terminal, install the Dependancies:
+### 4. 👾 In your terminal, navigate to the project:
 
-Navigate into your project directory using your terminal. The path should be point to the project directory create above. Ex. react-native-lab1. Next install the project dependencies using npm. Once the dependencies have loaded open your project on vsCode
+Navigate into your project directory using your terminal. The path should be point to the project directory create above. Ex. react-native-lab1. On project creation the dependencies will be automatically installed, we are going to open up you project on VS Code.
 
 ```
 cd <my-app>
-
-npm install
 
 code .
 ```
@@ -88,7 +85,6 @@ This should open up something in your web browser! In the future, you only need 
 ✅ Here's a reference for all of the files in your new app. Go through each one and check them out so you know what is inside.
 
 - .expo folder = contains configuration information for your machine
-- .expo-shared folder = contains info about asset optimization
 - **assets folder = contains assets for project (images, icons, fonts, videos)**
 - node_modules folder = contains dependencies of project
 - .gitignore file = specifies files that Git should ignore
