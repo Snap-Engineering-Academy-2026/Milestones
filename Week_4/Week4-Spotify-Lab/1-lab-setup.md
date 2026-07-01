@@ -10,7 +10,13 @@ npx create-expo-app@latest spotify-navigation-lab --template blank
 cd spotify-navigation-lab
 ```
 
-3. Start the project and test to make sure it works!
+3. Install expo-web-browser dependency
+
+```
+npx expo install expo-web-browser
+```
+
+4. Start the project and test to make sure it works!
 
 ```
 npx expo start
@@ -24,7 +30,7 @@ npx expo start
 
 <br/>
 
-4. Next, we're going to grab some starter code. There are a number of commands to run for this step, with brief explanations below each one.  
+5. Next, we're going to grab some starter code. There are a number of commands to run for this step, with brief explanations below each one.  
 
 ```
 gh repo clone Snap-Engineering-Academy-2025/starter-spotify-navigation-lab temp-spotify-starter-code
@@ -61,7 +67,7 @@ _Delete the rest of the "temp" code_
 
 <br/>
 
-5. Start the app again! You should get an error (Yes, you are supposed to get an error, either “Console Error” or “AuthRequest Error”)
+6. Start the app again! You should get an error (Yes, you are supposed to get an error, either “Console Error” or “AuthRequest Error”)
 
 ```
 npx expo start
