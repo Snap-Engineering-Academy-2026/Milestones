@@ -85,6 +85,10 @@ This should open up something in your web browser! In the future, you only need 
 
 ✅ Try scanning the QR code with your Expo app (on Android) or Camera (on iPhone) to see the same screen on your phone.
 
+> [!IMPORTANT]
+> If your Expo Go app does not display your project make sure that your phone and computer are on the same WIFI.
+> If that does not work try to run your project using the following command ```npx expo start --tunnel```
+
 ✅ Here's a reference for all of the files in your new app. Go through each one and check them out so you know what is inside.
 
 - .expo folder = contains configuration information for your machine
