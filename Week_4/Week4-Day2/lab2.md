@@ -15,8 +15,4 @@ Your goal is to get done with the entire section of building a screen tutorial. 
 
 Your goal in sections to complete the entire section of working with picking an image. The goal here isn't to finish first, remeber to be mindful and taking the time to learn. As yourself, why are we using certain libraries, why are creating component and how are they being used?
 
-<video width="640" height="360" controls>
-  <source src="https://docs.expo.dev/static/videos/tutorial/03-image-picker-demo.mp4"" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+[**End Goal Video**](https://docs.expo.dev/static/videos/tutorial/03-image-picker-demo.mp4)
