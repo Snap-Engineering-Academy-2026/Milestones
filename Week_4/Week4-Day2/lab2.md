@@ -1,16 +1,22 @@
 # ⚡️React Native Lab 2 instructions
 
-In this lab we are going focus two sections of the expo documentation
+In this lab we are going focus **two** sections of the expo documentation
 
 ## Learning to Build a screen:
 
-Your goal is to get done with the entire section of building a screen tutorial. Take your time, it's easy to get "copy and paste happy". Take your time understanding the components, using pressable buttons and styling.
-<image src="https://docs.expo.dev/static/images/tutorial/initial-layout.webp"/>
+Your goal is to get done with the entire section of building a screen tutorial. Take your time, it's easy to get "copy and paste happy". Make sure you understand the components, using the `pressable buttons` and `styling`.
+
+## Tasks :
 
 ### 1. 🌈 [Build a Screen](https://docs.expo.dev/tutorial/build-a-screen/)
+<image width="350" height="700" src="https://docs.expo.dev/static/images/tutorial/initial-layout.webp"/>
 
-## Pick an image from the device's media library
+### 2. 🌠 [Picking an image for Device's Media](https://docs.expo.io/tutorial/image-picker/)
 
 Your goal in sections to complete the entire section of working with picking an image. The goal here isn't to finish first, remeber to be mindful and taking the time to learn. As yourself, why are we using certain libraries, why are creating component and how are they being used?
 
-### 2. 🌠 [Picking an image](https://docs.expo.io/tutorial/image-picker/)
+<video width="640" height="360" controls>
+  <source src="https://docs.expo.dev/static/videos/tutorial/03-image-picker-demo.mp4"" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
