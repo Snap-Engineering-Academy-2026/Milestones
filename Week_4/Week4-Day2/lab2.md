@@ -5,7 +5,7 @@ In this lab we are going focus two sections of the expo documentation
 ## Learning to Build a screen:
 
 Your goal is to get done with the entire section of building a screen tutorial. Take your time, it's easy to get "copy and paste happy". Take your time understanding the components, using pressable buttons and styling.
-<image src="https://docs.expo.dev/static/images/tutorial/initial-layout.png"/>
+<image src="https://docs.expo.dev/static/images/tutorial/initial-layout.webp"/>
 
 ### 1. 🌈 [Build a Screen](https://docs.expo.dev/tutorial/build-a-screen/)
 
