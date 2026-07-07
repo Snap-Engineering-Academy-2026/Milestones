@@ -4,7 +4,11 @@ In this lab we are going focus **two** sections of the expo documentation
 
 ## Learning to Build a screen:
 
-Your goal is to get done with the entire section of building a screen tutorial. Take your time, it's easy to get "copy and paste happy". Make sure you understand the components, using the `pressable buttons` and `styling`.
+Your goal is to get done with the entire section of building a screen tutorial. TAKE YOUR TIME, READ THE CODE AND DOCUMENTATION. Make sure you understand the components, using the `pressable buttons` and `styling`.
+
+> [!WARNING]
+> Notice that the demo is written in TypeScript, you will need to convert or leave out some of the code in the demo.
+
 
 ## Tasks :
 
