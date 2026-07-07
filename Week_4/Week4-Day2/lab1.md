@@ -149,4 +149,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-## If screen is yellow you are done else keep working on this !
+## Your screen should look something like this!
+
+<img width="414" height="863" alt="Screenshot 2026-07-06 at 10 12 01 PM" src="https://github.com/user-attachments/assets/254d2737-b05b-4d6d-a028-9ef3408bd5af" />
+
