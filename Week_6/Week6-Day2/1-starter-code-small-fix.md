@@ -11,7 +11,7 @@ After cloning this repo to your computer, **make a new branch** with your name! 
 The `git checkout` command move you to a different branch, and adding the `-b` flag will create a new branch before moving you 
 
 ```bash
-git checkout -b <new-branch-name>
+git switch <new-branch-name>
 ```
 
 ## Milestone 1 - Improve the starter code
