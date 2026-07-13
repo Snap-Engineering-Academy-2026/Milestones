@@ -37,7 +37,7 @@ Why it’s useful: Allows you to review changes and decide how and when to integ
 ### Merge Upstream Changes into Your Branch
 Once you have fetched the changes, you can merge them into your current branch. This way, you have control over how the changes are applied and can resolve any conflicts that might arise.
 ```js
-$ git checkout your-branch-name
+$ git switch your-branch-name
 $ git merge upstream/main
 ```
 What it does: Merges the fetched changes from the upstream repository’s main branch into your current branch.
