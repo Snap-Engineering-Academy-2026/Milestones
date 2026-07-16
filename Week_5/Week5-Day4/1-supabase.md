@@ -46,7 +46,7 @@ For our database, we'll be using a database service called Supabase. Supabase is
 
 For the `.env.local` file, we want to put our connection keys in our `.env.local` file. You should already have an environment variable file (aka `.env.local`) with your ChatGPT api key in it, so just add to that! If you don't have one, create the `.env.local` file and add `.env.local` to your `.gitignore` file. Though chances are that it already includes `.env*.local`  to ignore all all environment files. This will ensure that no API keys will be pushed to Github and be exposed.
 
-### `utils/supabase.ts`
+### `utils/supabase.js`
 
 For the `utils/supabase.ts` file, we want that almost exactly as it, but your file should be called `supabase.js` instead of `supabase.ts`, because we're using JavaScript (`.js`), not TypeScript (`.ts`). Below is the translated file to JavaScript.
 
@@ -83,7 +83,7 @@ npx expo install @supabase/supabase-js @react-native-async-storage/async-storage
 npx expo install expo-env
 ```
 
-### `App.tsx`
+### `App.js`
 
 For the `App.tsx` file example, we're going to do something a lil wild, so hold on to your socks. We're going to replace our whole `App.js` code with this example, **temporarily**, to check if our setup is working. Before continuing, make sure you've committed and pushed to github recently so you don't lose anything important! Once you're sure you've saved your work (and your socks are secured), copy paste the example code into `App.js`, replacing everything that's there. Below is the translated file to JavaScript.
 
