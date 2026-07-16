@@ -8,7 +8,7 @@ Discuss your interview norms with your team at the start of your sessions. Right
 Different people will have different answers!
 
 
-# ☀️ Morning (20 min each person)
+# ☀️ Morning
 
 Watching the NeetCode videos is okay if you'd like more review on solving Graph and Heap problems.
 
@@ -44,7 +44,7 @@ Watching the NeetCode videos is okay if you'd like more review on solving Graph 
 
 ---
 
-## 🌤 Afternoon (35 min each person + 5 min feedback)
+## 🌤 Afternoon
 
 ### 🔁 Practice
 
