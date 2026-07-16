@@ -1,6 +1,6 @@
 # Final Project Starter
 
-https://github.com/Snap-Engineering-Academy-2025/SnapChatStarterForkable
+[Snapchat Starter Code Forkable](https://github.com/Snap-Engineering-Academy-2026/SnapChatStarterForkable)
 
 This will be the starter code for your final project! But first, we're going to spend a day making improvements to it. We'll use pull requests to manage this, and for that you'll need to be on your own branch. You can work in pairs or on your own.
 
@@ -11,7 +11,7 @@ After cloning this repo to your computer, **make a new branch** with your name! 
 The `git checkout` command move you to a different branch, and adding the `-b` flag will create a new branch before moving you 
 
 ```bash
-git checkout -b <new-branch-name>
+git switch <new-branch-name>
 ```
 
 ## Milestone 1 - Improve the starter code
@@ -37,7 +37,7 @@ Why it’s useful: Allows you to review changes and decide how and when to integ
 ### Merge Upstream Changes into Your Branch
 Once you have fetched the changes, you can merge them into your current branch. This way, you have control over how the changes are applied and can resolve any conflicts that might arise.
 ```js
-$ git checkout your-branch-name
+$ git switch your-branch-name
 $ git merge upstream/main
 ```
 What it does: Merges the fetched changes from the upstream repository’s main branch into your current branch.

@@ -12,6 +12,10 @@ For our database, we'll be using a database service called Supabase. Supabase is
 2. Create a new organization and a project (recommend calling the org "sea-yourname" and the project something like "chatbots")
 3. Wait a few minutes for your database project to be created
 
+> [!IMPORTANT]
+> Save the password you created for your project!
+
+
 ## Connecting your app to Supabase
 
 ### Let go create some keys:
