@@ -82,6 +82,11 @@ Note that this file imports some packages we don't have! Let's install them:
 npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill
 npx expo install expo-env
 ```
+> [!Important]
+> When running `npx expo install expo-env` you will be asked to create a config file, enter "No".
+
+<img width="1005" height="423" alt="Screenshot 2026-07-16 at 8 38 51 AM" src="https://github.com/user-attachments/assets/69e00f3a-8fc3-4122-aa50-e07281e1bf41" />
+
 
 ### `App.js`
 
