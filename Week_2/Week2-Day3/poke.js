@@ -27,32 +27,3 @@ const pokemons = Object.freeze([
     { "id": 146, "name": "Moltres", "types": ["fire", "flying"] },
     { "id": 148, "name": "Dragonair", "types": ["dragon"] }
 ]);
-// an array of pokémon objects where the id is evenly divisible by 3
-let results = []
-for(let i = 0; i < pokemons.length; i++){
-    if(pokemons[i].id % 3 === 0){
-        results.push(pokemons[i])
-    }
-}
-const result = pokemons.filter((poke) => poke.id > 99).map()
-
-// an array of pokémon objects that are "fire" type
-
-// an array of pokémon objects that have more than one type
-
-// an array with just the names of the pokémon
-
-// an array with just the names of pokémon with an id greater than 99
-const results = pokemons.filter((poke) => poke.id > 99).map((poke) => poke.name)
-console.log(results)
-
-// an array with just the names of the pokémon whose only type is poison
-
-// an array containing just the first type of all the pokémon whose second type is "flying"
-
-// a count of the number of pokémon that are "normal" type
-const bulb =     { 
-        "id": 1, 
-        "name": "Bulbasaur", 
-        "types": ["poison", "grass"]
-    },

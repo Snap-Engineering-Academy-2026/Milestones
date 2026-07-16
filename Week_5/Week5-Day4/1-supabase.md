@@ -22,19 +22,21 @@ For our database, we'll be using a database service called Supabase. Supabase is
 
 3. On the left sidebar, click ⚙️ Settings → API Keys.
    You’ll see something similar to this:
-   <img src="./supaAPIKey.jpg">
+   <img src="./api_keys.png">
    don't worry about putting these keys in your `.env.local`. The reason why we went looking for keys first is that they auto populate in our `connect` tab once we create them.
-4. Select `Create new API Keys` and agree with the pop up window message
-   <img src="./Supabase project..png">
-   Once your project is created, we need to get some packages and the proper connection keys to help our app connect to Supabase!
+
+> [!Note]
+> Notice that there are two types of keys **Publishable** and **Secret** keys. We will be using the **Publishable** keys for our projects. If you are interested in learning the difference between the two keys here is a link for further reading. [Understanding API keys](https://supabase.com/docs/guides/getting-started/api-keys)
+
 
 ### Adding the connection code to our project :
 
 5. From the project dashboard, find the "Connect" button and click it  
-   <img src="./supaConnect.jpg">
-6. Select the "Mobile Frameworks" tab, then look at the three things below.
-   <img src="./supaKeys.jpg">
-   These are files that contain the connection keys and some example code! P.S look at the photo above and note the three arrows. We won't be using them exactly as written, but they're still very helpful. We'll walk through each of them separately.
+   <img src="./connect.jpg">
+6. Select the "Frameworks" tab, and select the **Expo React Native** framework.
+   <img src="./env.png">
+   These are files that contain the connection keys and some example code!
+   P.S look at the photo above and note the three files(env.local, utils/supabase.ts, and App.tsx). We won't be using them exactly as written, but they're still very helpful.We'll walk through each of them separately.
 
 ### `.env.local`
 
@@ -71,19 +73,21 @@ This line tries to access a database table on supabase called "todos". But we do
 
 So let's make one! From the supabase project dashboard, use the left sidebar to go to the "Table Editor", then find the green "Create a new table" button:
 
-  <img width="1477" alt="Screen Shot 2024-07-17 at 3 36 08 PM" src="https://github.com/user-attachments/assets/947b05d7-6858-4705-a5a4-3b7f98590c84">
+<img width="1477" alt="Screen Shot 2024-07-17 at 3 36 08 PM" src="./table_editor.png">
+
 
 Now let's create a "todos" table, and add a text column called "title"
 
-<img width="45%" alt="Screen Shot 2024-07-17 at 3 38 08 PM" src="https://github.com/user-attachments/assets/58a551cb-696e-439c-9eba-413c1f22d0d1"> <img width="45%" alt="Screen Shot 2024-07-17 at 4 48 03 PM" src="https://github.com/user-attachments/assets/6db1e8ce-b7fb-4f3f-99e9-e25f6007e47b">
+<img width="45%" alt="Screen Shot 2024-07-17 at 3 38 08 PM" src="./create_table_1.png"> 
+<img width="45%" alt="Screen Shot 2024-07-17 at 4 48 03 PM" src="./create_table_2.png">
 
 <br>
 
 Then we'll add some dummy data to that table
 
-  <img alt="Screen Shot 2024-07-17 at 4 50 37 PM" src="https://github.com/user-attachments/assets/ae6fe89d-3a4d-4b2b-9dba-4c0126518584">
+  <img alt="Screen Shot 2024-07-17 at 4 50 37 PM" src="./add_data_1.png">
 
-  <img alt="Screen Shot 2024-07-17 at 4 52 46 PM" src="https://github.com/user-attachments/assets/71191ed1-2983-4936-a901-c349487f7e19">
+  <img alt="Screen Shot 2024-07-17 at 4 52 46 PM" src="./dummy_data.png">
 
 <br>
 
