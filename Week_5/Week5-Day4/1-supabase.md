@@ -44,11 +44,37 @@ For our database, we'll be using a database service called Supabase. Supabase is
 
 ### `.env.local`
 
-For the `.env.local` file, we want to put our connection keys in our `.env.local` file. You should already have an environment variable file (aka `.env.local`) with your ChatGPT api key in it, so just add to that! If you don't have one, create one and add `.env.local` to your `.gitignore` file. Notice that this page does not expose your `EXPO_PUBLIC_SUPABASE_KEY` follows the steps to get get the key
+For the `.env.local` file, we want to put our connection keys in our `.env.local` file. You should already have an environment variable file (aka `.env.local`) with your ChatGPT api key in it, so just add to that! If you don't have one, create the `.env.local` file and add `.env.local` to your `.gitignore` file. Though chances are that it already includes `.env*.local`  to ignore all all environment files. This will ensure that no API keys will be pushed to Github and be exposed.
 
 ### `utils/supabase.ts`
 
-For the `utils/supabase.ts` file, we want that almost exactly as it, but your file should be called `supabase.js` instead of `supabase.ts`, because we're using JavaScript (`.js`), not TypeScript (`.ts`). _You can use AI to help you convert the file from Typescript to Javascript._
+For the `utils/supabase.ts` file, we want that almost exactly as it, but your file should be called `supabase.js` instead of `supabase.ts`, because we're using JavaScript (`.js`), not TypeScript (`.ts`). Below is the translated file to JavaScript.
+
+<table><tr><td>
+<details>
+  <summary>Reveal</summary>
+   
+  ```js
+   import AsyncStorage from '@react-native-async-storage/async-storage'
+   import { createClient } from '@supabase/supabase-js'
+   
+   export const supabase = createClient(
+     process.env.EXPO_PUBLIC_SUPABASE_URL,
+     process.env.EXPO_PUBLIC_SUPABASE_KEY,
+     {
+       auth: {
+         storage: AsyncStorage,
+         autoRefreshToken: true,
+         persistSession: true,
+         detectSessionInUrl: false,
+       },
+     })
+   ```
+
+</details>
+</td></tr></table>
+
+
 
 Note that this file imports some packages we don't have! Let's install them:
 
@@ -59,11 +85,64 @@ npx expo install expo-env
 
 ### `App.tsx`
 
-For the `App.tsx` file example, we're going to do something a lil wild, so hold on to your socks. We're going to replace our whole `App.js` code with this example, **temporarily**, to check if our setup is working. Before continuing, make sure you've committed and pushed to github recently so you don't lose anything important! Once you're sure you've saved your work (and your socks are secured), copy paste the example code into `App.js`, replacing everything that's there. _You can use AI to help you convert the file from Typescript to Javascript._
+For the `App.tsx` file example, we're going to do something a lil wild, so hold on to your socks. We're going to replace our whole `App.js` code with this example, **temporarily**, to check if our setup is working. Before continuing, make sure you've committed and pushed to github recently so you don't lose anything important! Once you're sure you've saved your work (and your socks are secured), copy paste the example code into `App.js`, replacing everything that's there. Below is the translated file to JavaScript.
 
-When you do this, you'll hopefully get an error that looks like this:
+<table><tr><td>
+<details>
+  <summary>Reveal</summary>
 
-<img src="./error.png" style="width: 50%; height: auto;">
+   ```js
+   import React, { useState, useEffect } from 'react';
+   import { View, Text, FlatList } from 'react-native';
+   import { supabase } from './utils/supabase';
+   import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
+   
+   export default function App() {
+     const [todos, setTodos] = useState([]);
+     useEffect(() => {
+       console.log('useeffect')
+       const getTodos = async () => {
+         try {
+           const { data: todos, error } = await supabase.from('tests').select();
+   
+           if (error) {
+             console.error('Error fetching todos:', error.message);
+             return;
+           }
+   
+           if (todos && todos.length > 0) {
+             console.log(todos)
+             setTodos(todos);
+           }
+         } catch (error) {
+           console.error('Error fetching todos:', error.message);
+         }
+       };
+   
+       getTodos();
+     }, []);
+   
+     return (
+       <SafeAreaProvider>
+         <SafeAreaView style={{ flex: 1 }}>
+           <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+             <Text>Todo List</Text>
+             <FlatList
+               data={todos}
+               keyExtractor={(item) => item.id.toString()}
+               renderItem={({ item }) => <Text key={item.id}>{item.title}</Text>}
+             />
+           </View>
+         </SafeAreaView>
+       </SafeAreaProvider>
+     );
+   };
+   ```
+</details>
+</td></tr></table>
+
+>[!Warning]
+> When you do this, you'll hopefully get an error that says that the table "todos" cannot be found.
 
 ## Addressing `errors fetching todos`
 
@@ -99,7 +178,8 @@ Then we'll add some dummy data to that table
 
 Now when we run it, we should see the dummy data from your database in your app!
 
-  <img width="400" src="https://github.com/user-attachments/assets/ff715d6a-2306-43a3-b032-e0dd32c288eb">
+<img width="414" height="863" alt="Screenshot 2026-07-15 at 10 51 34 PM" src="https://github.com/user-attachments/assets/1c1aa7b2-884d-4eba-8710-8b71b879335c" />
+
 
 ## Fin!
 
