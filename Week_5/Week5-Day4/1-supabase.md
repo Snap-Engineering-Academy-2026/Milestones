@@ -161,8 +161,7 @@ So let's make one! From the supabase project dashboard, use the left sidebar to 
 
 Now let's create a "todos" table, and add a text column called "title"
 
-<img width="45%" alt="Screen Shot 2024-07-17 at 3 38 08 PM" src="./create_table_1.png"> 
-<img width="45%" alt="Screen Shot 2024-07-17 at 4 48 03 PM" src="./create_table_2.png">
+<img width="45%" alt="Screen Shot 2024-07-17 at 3 38 08 PM" src="./create_table_1.png"> <img width="45%" alt="Screen Shot 2024-07-17 at 4 48 03 PM" src="./create_table_2.png">
 
 <br>
 
